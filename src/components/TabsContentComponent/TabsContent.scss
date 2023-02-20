@@ -1,0 +1,40 @@
+.tab-item-container{
+    color: black;
+    border: 1px solid black;
+}
+
+.tab-container{
+    display: flex;
+    overflow-x: scroll;
+    height: 100vh;
+    color: black;
+}
+
+.ant-tabs .ant-tabs-content {
+    position: relative;
+    width: 76vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.tab-item {
+    border-bottom: 1px solid black;
+    // color: green;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 0 2%;
+}
+
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-weight: 600;
+}

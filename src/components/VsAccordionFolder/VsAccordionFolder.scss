@@ -1,0 +1,86 @@
+.accordion-folder-container{
+    display: flex;
+    width: 35%;
+    box-sizing: border-box;
+    padding-left: 1%;
+}
+
+.accordion-folder-container-with-border{
+    display: flex;
+    width: 25%;
+    box-sizing: border-box;
+    padding-left: 1%;
+    border: 1px solid orangered;
+}
+
+.accordion-folder-container:hover{
+    border: 1px dashed orangered;
+}
+
+
+
+.angle-icon {
+    font-size: 1.5em;
+    padding-top: 0%;
+    margin-right:1% ;
+}
+
+ul li {
+    list-style: none;
+}
+
+.js-icon{
+    font-size: 1em;
+    padding-top: 1.5%;
+    margin-right:1% ;
+    color: yellow;
+}
+
+.scss-icon{
+    font-size: 1em;
+    padding-top: 3%;
+    margin-right:1% ;
+    color: rgb(253, 58, 91);
+}
+
+.hash-icon{
+    font-size: 1em;
+    padding-top: 1.5%;
+    margin-right:1% ;
+    color: rgb(74, 155, 248);
+}
+
+.accordion-title {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6b6b6b;
+    font-weight: 600;
+}
+
+.accordion-content-close {
+    height: 0;
+    overflow: hidden;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.accordion-content-open {
+    height: auto;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.docs-side-navbar-list{
+    text-align: -webkit-match-parent;
+    display: list-item;
+    width: 100%;
+}
+
+.sub-file-container{
+    border-left: 1px solid gray;
+}
+
+.antd-switch{
+    margin-bottom: 2%;
+}

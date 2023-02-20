@@ -1,0 +1,15 @@
+.app {
+  /* padding: 3% 5%; */
+  background-color: black;
+  color: white;
+  /* height: 87vh; */
+}
+
+.ant-layout .ant-layout-sider-children {
+  width: 50vw;
+  height: 100vh;
+  padding: 5% 0% 0 3%;
+  overflow-x: scroll;
+}
+
+
